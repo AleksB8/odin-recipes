@@ -1,21 +1,42 @@
-h1 {
-    color:green;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
+body {
+    background: rgba(255, 0, 0, 0.815);
+    color:rgb(255,255,255);
+    font-family:"Protest Riot", Arial, sans-serif;
 }
 
-h2,
-h3 {
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+body h2 {
+     text-decoration:underline;
 }
 
-p {
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+img {
+    width: 500px;;
 }
 
-ul {
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+.table-info {
+    border-style:dashed;
+    border-color:rgb(255,255,255);
+    border-width:1.8px;
+    border-radius:10px;
+    padding:0px 25px;
 }
 
-#sources {
-    color:red;
+.table-nutrients {
+    border-style: dotted;
+    border-color:rgb(255,255,255);
+    border-width:thin;
+    padding:20px;
+}
+
+.table-nutrients th {
+    text-align: left;
+    text-decoration: underline;
+}
+
+/* Defines the offset inside the table */
+.table-nutrients td {
+    padding-right:30px;
+}
+
+.test {
+    margin: 50px 0px 0px 0px;
 }
